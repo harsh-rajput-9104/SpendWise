@@ -153,9 +153,9 @@ input:focus, textarea:focus, select:focus {
 }
 
 .glass {
-  background: rgba(20, 23, 31, 0.7);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(20, 23, 31, 0.85);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
   border: 1px solid var(--border);
 }
 
