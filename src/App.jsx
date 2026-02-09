@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import AddTransaction from './pages/AddTransaction';
 import Analytics from './pages/Analytics';
+import InstallPrompt from './components/InstallPrompt';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
             <Route path="/add" element={<AddTransaction />} />
             <Route path="/analytics" element={<Analytics />} />
           </Routes>
+
+          {/* PWA Install Prompt */}
+          <InstallPrompt />
         </div>
       </TransactionProvider>
     </Router>

@@ -1,0 +1,13 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0B0F19" rx="86"/>
+  
+  <!-- Dollar Sign Circle -->
+  <circle cx="256" cy="256" r="160" fill="#16A34A" opacity="0.2"/>
+  
+  <!-- Dollar Sign -->
+  <text x="256" y="340" font-family="Arial, sans-serif" font-size="220" font-weight="bold" fill="#16A34A" text-anchor="middle">$</text>
+  
+  <!-- App Name -->
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="42" font-weight="600" fill="#16A34A" text-anchor="middle">SpendWise</text>
+</svg>
